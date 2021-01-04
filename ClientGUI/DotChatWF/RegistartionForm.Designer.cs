@@ -1,6 +1,6 @@
 ﻿namespace DotChatWF
 {
-  partial class RegistartionForm
+  partial class Registartion
   {
     /// <summary>
     /// Required designer variable.
@@ -28,6 +28,7 @@
     /// </summary>
     private void InitializeComponent()
     {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registartion));
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -105,7 +106,7 @@
             this.btnReg2serv.UseVisualStyleBackColor = true;
             this.btnReg2serv.Click += new System.EventHandler(this.btnReg2serv_Click);
             // 
-            // RegistartionForm
+            // Registartion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -117,9 +118,10 @@
             this.Controls.Add(this.TBPass1);
             this.Controls.Add(this.fieldUserName);
             this.Controls.Add(this.btnReg2serv);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "RegistartionForm";
-            this.Text = "RegistartionForm";
+            this.Name = "Registartion";
+            this.Text = "Registartion";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.RegistartionForm_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RegistartionForm_FormClosed);
             this.Load += new System.EventHandler(this.RegistartionForm_Load);

@@ -21,7 +21,7 @@ namespace DotChatWF
         // Глобальные переменные
         int lastMsgID = 0;
         AuthentificationForm AuthForm;
-        RegistartionForm RegForm;
+        Registartion RegForm;
         public TextBox TextBox_username;
         public int int_token;
 
@@ -144,14 +144,14 @@ namespace DotChatWF
     {
       int_token = 0;
       AuthForm = new AuthentificationForm();
-      RegForm = new RegistartionForm();
+      RegForm = new Registartion();
       TextBox_username = fieldUsername;
 
     }
 
     private void btnReg_Click(object sender, EventArgs e)
     {
-      RegForm = new RegistartionForm();
+      RegForm = new Registartion();
       RegForm.mForm = this;     
       RegForm.Show();
       this.Visible = false;
